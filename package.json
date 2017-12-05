@@ -1,0 +1,19 @@
+{
+  "name": "test-dll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "builddll": "rm -rf dll/build && webpack --config ./dll/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@influitive/runtime-deps": "^1.0.7",
+    "neutrino": "^7.4.0",
+    "neutrino-preset-web": "^7.4.0"
+  }
+}
