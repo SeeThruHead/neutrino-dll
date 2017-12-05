@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@influitive/runtime-deps": "^1.0.7",
     "neutrino": "^7.4.0",
     "neutrino-preset-web": "^7.4.0"
   }
