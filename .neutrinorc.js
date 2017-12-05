@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-console.log(require('@influitive/runtime-deps'));
 
 module.exports = {
   use: [
